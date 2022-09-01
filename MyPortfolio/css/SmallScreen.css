@@ -1,0 +1,160 @@
+@media only screen and (max-width:912px){
+  .profile-container{
+    border-radius: 0% 0 0 2%;
+  }
+  .menu-smallScreen{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-shadow: 2px 2px 2px gray;
+    margin-bottom: 10px;
+  }
+
+  .menu-smallScreen h4{
+    text-align: center;
+    margin-left: 20px;
+  }
+  .container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .nav-bar{
+    width: 100%;
+    height: 100%;
+    display: none;
+    flex-direction: column;
+    border-radius: 0% 0 0 0%;
+    margin-bottom: 10px;
+    transition: .5s;
+  }
+  .nav-bar .bar-items ul{
+    display: flex;
+    flex-direction: column;
+  }
+  .profile-details{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+  .profile-details .profile-titles{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .profile-details .profile-pictures{
+    width: 100%;
+  }
+  .profile-pictures .img-bg{
+    width: 50%;
+    height: 100%;
+  }
+  .resume-container{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    border-radius: none;
+    display: flex;
+    flex-direction: column;
+  }
+  .resume-container .resume-bar{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 0px grey;
+    margin: auto;
+  }
+  .resume-bar ul{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+  }
+  .resume-bar ul li{
+    display: none;
+
+  }
+  .resume-container .resume-description{
+    width: 100%;
+    height: 1000px;
+    margin-left: 0;
+    margin-right: 0;
+    display: inline-block;
+  }
+  .resume-description .resume-education{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+   .resume-education .education-level{
+    width: 70%;
+  }
+  .education-date{
+    width: 30%;
+  }
+ .education-level h3{
+    font-size: 12px;
+  }
+  .education-level p{
+    font-size: 10px;
+  }
+  .date-details p{
+    font-size: 10px;
+  }
+  .resume-work-history h2, .resume-work-history h3{
+    font-size: 13px;
+  }
+  .resume-work-history p{
+    font-size: 12px;
+  }
+  .about-me-container{
+    width: 100%;
+    height: 100%;
+  }
+  .about-me-buttons a{
+    width: 120px;
+    padding: 10px;
+    margin: 5px;
+  }
+  .testimonials-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .testimonials-container .testimonials{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .contact-me-container{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  .contact-me-container .contact-me{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .contact-me-container .send-me{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  .project-details h2{
+    font-size: 12px;
+  }
+  .project-details p{
+    font-size: 10px;
+  }
+}
